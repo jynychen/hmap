@@ -1,6 +1,7 @@
 module github.com/projectdiscovery/hmap
 
 go 1.21
+toolchain go1.23.7
 
 require (
 	github.com/akrylysov/pogreb v0.10.1
@@ -36,7 +37,7 @@ require (
 	github.com/tidwall/pretty v1.2.0 // indirect
 	github.com/tidwall/rtred v0.1.2 // indirect
 	github.com/tidwall/tinyqueue v0.1.1 // indirect
-	golang.org/x/net v0.33.0 // indirect
-	golang.org/x/sys v0.28.0 // indirect
+	golang.org/x/net v0.36.0 // indirect
+	golang.org/x/sys v0.30.0 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
